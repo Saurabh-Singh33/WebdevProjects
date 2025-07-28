@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e3f2fd;
+
+}
+
+.container {
+    position: relative;
+    background-image: url("OIP.jpg");
+    background-size: cover;
+    padding: 25px;
+    border-radius: 28px;
+    max-width: 380px;
+    width: 100%;
+    box-shadow: o 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+h5 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+header,
+ .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo img {
+    margin-right: 10px;
+    width: 48px;
+}
+
+header .chip {
+    width: 60px;
+    border-radius: 8px;
+
+}
+
+h6 {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+h5.number {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 4px;
+}
+
+h5.name {
+    margin-top: 20px;
+}
+
+.container .card-details {
+    margin: 40px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+
+}
