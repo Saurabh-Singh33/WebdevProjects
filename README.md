@@ -59,7 +59,7 @@ Add screenshots of each project here for a more visually appealing README.
 🛠️ How to Use
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Saurabh-Singh33/WebdevProjects.git
 Open any project folder.
 
 Run the index.html file in the browser.
