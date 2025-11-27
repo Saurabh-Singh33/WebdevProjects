@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: #ffffff;
+    padding: 25px;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #333;
+}
+
+.converter-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #444;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    background: #4e54c8;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #5d63d6;
+}
+
+#result {
+    margin-top: 10px;
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+        width: 100%;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
